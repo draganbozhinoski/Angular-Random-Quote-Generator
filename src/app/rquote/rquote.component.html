@@ -1,0 +1,9 @@
+<div class="container" *ngIf="quote" [ngStyle]="{'background-color':color}">
+    <h1>
+        <img src="https://i.imgur.com/NmaTjTH.png">
+        <i class="quote"> {{quote.q}}</i>
+    </h1>
+    <div class="author">- {{quote.a}} </div>
+    <button id="nextQuote" (click)="getRandomQuote()">New Quote</button>    
+    <a [href]="getURL()" class="fa fa-twitter"></a>
+</div>
