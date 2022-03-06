@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RQuoteComponent } from './rquote/rquote.component';
+import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RQuoteComponent
+    RQuoteComponent,
+    LoadingComponent
     ],
   imports: [
     BrowserModule,
